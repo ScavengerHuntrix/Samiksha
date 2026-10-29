@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*/node_modules/
+venv/
+*/venv/
+.venv/
+*/.venv/
+env/
+*/env/
+
+# Python Cache
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Build & Bundler outputs
+dist/
+*/dist/
+.tmp/
+*/.tmp/
+*.tsbuildinfo
+
+# OS files & logs
+.DS_Store
+Thumbs.db
+*.log
